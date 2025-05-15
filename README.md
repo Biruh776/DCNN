@@ -4,8 +4,8 @@ This repository contains a minimal implementation of a Deep Convolutional Neural
 
 ## Files
 
-- **`dcnn_preprocess.py`** – Loads, reshapes, and preprocesses raw vibration data. Saves processed data as `.npy` files.
-- **`dcnn_main.py`** – Defines and trains a 1D CNN model using PyTorch. Evaluates and plots training/testing performance.
+- **`dcnn_preprocess.ipynb`** – Loads, reshapes, and preprocesses raw vibration data. Saves processed data as `.npy` files.
+- **`dcnn_main.ipynb`** – Defines and trains a 1D CNN model using PyTorch. Evaluates and plots training/testing performance.
 
 ## Requirements
 
@@ -16,5 +16,6 @@ This repository contains a minimal implementation of a Deep Convolutional Neural
 
 ## Usage
 
-1. Run `dcnn_preprocess.py` to generate the input datasets.
-2. Run `dcnn_main.py` to train and evaluate the CNN model.
+1. Make sure you either rename your file or change the name of the vibration file in the code
+1. Run `dcnn_preprocess.ipynb` to generate the input datasets.
+1. Run `dcnn_main.ipynb` to train and evaluate the CNN model.
